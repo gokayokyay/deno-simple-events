@@ -40,7 +40,7 @@ class EventEmitter {
     return this;
   }
 
-  emit(eventName: string, ...args: [any]): boolean {
+  emit(eventName: string, ...args: any[]): boolean {
     if (!this.listeners[eventName]) {
       return false;
     }
