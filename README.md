@@ -7,7 +7,7 @@ Simple event emitter class from [how to code your own event emitter](https://www
 ### Usage
 
 ```js
-import { EventEmitter } from 'package url';
+import { EventEmitter } from 'https://deno.land/x/toolbelt/mod.ts';
 
 class Client extends EventEmitter {
   constructor () {
